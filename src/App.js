@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { Button } from 'react-bootstrap';
-import Header from './Header';
+// import Header from './Header';
 import './style.css';
 
 function App() {
