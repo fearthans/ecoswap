@@ -18,22 +18,22 @@ function App() {
         <div className="container">
           
           <div className="header">
-            <div className="brand">
-              <img
-                src="logo-ecoswap.png"
-                alt="instance"
-                width={48}
-                height={66.16851043701172}
-                className="brand-icon"
-              />
-              <div className="brand-nama">
-                <p className="brand-nama-text">EcoSwap</p>
+            <div className="right-header">
+              <div className="brand">
+                <img
+                  src="logo-ecoswap.png"
+                  alt="instance"
+                  width={48}
+                  height={66.16851043701172}
+                  className="brand-icon"
+                />
+                <div className="brand-nama">EcoSwap</div>
               </div>
-            </div>
-            <div className="persuade">
-              <p className="persuade-text">
-                WELCOME, Ready to start a SWAPPING ?
-              </p>
+              <div className="persuade">
+                <p className="persuade-text">
+                  WELCOME, Ready to start a SWAPPING ?
+                </p>
+              </div>
             </div>
             <div className="navbar">
                 <div className="item active">
@@ -52,9 +52,9 @@ function App() {
                 <p className="item-text">Contact Us</p>
               </div>
               <div className="dot"/>
-                <div className="item login active">
-                  <p className="item-text">Login</p>
-                </div>
+                <Button variant='dark' href='#' className="item login active">
+                  Login
+                </Button>
             </div>
           </div>
           
@@ -98,7 +98,7 @@ function App() {
             </div>
           </div>
 
-          <div className="search">
+          <div className="search-wrapper">
             <img
               src="./search.png"
               alt="instance"
@@ -106,10 +106,7 @@ function App() {
               height={24}
               className="search-img"
             />
-              <p className="search-text">
-                Trying to find something...?
-              </p>
-            <input/>
+            <input placeholder='Trying to find something...?'/>
           </div>
         </div>
       </div>
