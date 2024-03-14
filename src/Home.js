@@ -62,7 +62,7 @@ function Home() {
           <div className="main">
             <div className="quote-box">
             <img
-              src="./quote.png"
+              src="./quote.png "width =""
               alt="quote"
               className="quote"
             />
@@ -84,14 +84,16 @@ function Home() {
                 <div className="be">
                   <p className="text-be">Be Seller</p>
                   <img
-                    src="./people.png"
+                    src="./people.png 
+                    "width = "25"
                     alt="people icon"
                   />
                 </div>
                 <div className="be buyer">
                   <p className="text-be buyer">Be Buyer</p>
                   <img
-                    src="./cart.png"
+                    src="./cart.png 
+                    "width="25"
                     alt="cart icon"
                   />
                 </div>
