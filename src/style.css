@@ -150,17 +150,17 @@
     font-family: "Inter",sans-serif;
     /* margin-bottom: 0; */
     font-weight: 600;
-    width: clamp(150px,40vw,400px);
+    width: 800px;
   }
   
   .main {
     margin: 2rem 0;
-    gap: 72px;
+    gap: 102px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    max-width: 1665px;
+    max-width: 1365px;
     box-sizing: border-box;
     align-items: center;
     justify-content: flex-start;
@@ -180,7 +180,7 @@
   
   .description {
     color: #000;
-    font-size: 16px;
+    font-size: 17px;
     font-style: normal;
     margin-top: 0;
     text-align: left;
