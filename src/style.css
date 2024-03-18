@@ -150,11 +150,7 @@
   
   img.quote {
     color: #304d30;
-    font-size: 60px;
-    font-family: "Inter",sans-serif;
-    /* margin-bottom: 0; */
-    font-weight: 600;
-    width: 800px;
+    width: 80%;
   }
   
   .main {
@@ -162,7 +158,6 @@
     gap: 102px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     position: relative;
     max-width: 1365px;
     box-sizing: border-box;
@@ -252,7 +247,7 @@
     border-radius: 42px;
     justify-content: flex-start;
     background-color: #eef0e5;
-    margin-top: 18vh;
+    margin-top: 28vh;
   }
   
   .search-img {

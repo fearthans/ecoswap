@@ -85,21 +85,8 @@ function Home() {
               <p className="swapping">Start Swapping Now !</p>
               
               <div className="buttonning">
-                <div className="be">
-                  <p className="text-be">Be Seller</p>
-                  <img
-                    src="./people.png 
-                    "width = "25"
-                    alt="people icon"
-                  />
-                </div>
                 <div className="be buyer">
-                  <p className="text-be buyer">Be Buyer</p>
-                  <img
-                    src="./cart.png 
-                    "width="25"
-                    alt="cart icon"
-                  />
+                  <p className="text-be buyer">Start <b>SWAPPING</b></p>
                 </div>
               </div>
             </div>
