@@ -3,105 +3,93 @@ import "./App.css";
 import styles from "./menu.css"; 
 const login = (props) => {
   return (
-    <div className="c_frame21-frame">
-      <div className="c_frame21-frame01">
-        <div className="c_frame21-frame02">
-          <div className="c_frame21-frame03">
-            <div className="c_frame21-frame04">
-              <div className="c_frame21-text">
-                <p className="c_frame21-text01">Login</p>
-              </div>
-            </div>
-            <div className="c_frame21-text02">
-              <p className="c_frame21-text03">Login to your Swap Account !</p>
-            </div>
-          </div>
-          <img
-            src="./swap.png"
-            alt="vector"
-            width={110.5}
-            height={100.3638916015625}
-            className="c_frame21-vector"
-            />
-          <div className="c_frame21-frame05">
-            <div className="c_frame21-text04">
-              <p className="c_frame21-text05">Email/Username</p>
-            </div>
-            <div className="c_frame21-frame06">
-              <div className="c_frame21-text06">
-                <p className="c_frame21-text07">Your Email Address/Username</p>
-              </div>
-            </div>
-          </div>
-          <div className="c_frame21-frame07">
-            <div className="c_frame21-text08">
-              <p className="c_frame21-text09">Password</p>
-            </div>
-            <div className="c_frame21-frame08">
-              <div className="c_frame21-text10">
-                <p className="c_frame21-text11">Your Password</p>
-              </div>
-            </div>
-          </div>
-          <div className="c_frame21-frame09">
-            <div className="c_frame21-text12">
-              <p className="c_frame21-text13">Login</p>
-            </div>
-          </div>
-          <div className="c_frame21-text14">
-            <p className="c_frame21-text15">
-              <span className="c_frame21-text16">Forgot your password?</span>
-                <span className="c_frame21-text17">Get Help</span>
-                </p>
-                </div>
-                <img
-                  src="./eco.png"
-                  alt="frame"
-                  width={558}
-                  height={3}
-                  className="c_frame21-frame10"
-                  />
-                <div className="c_frame21-frame11">
-                  <img
-                    src="./google.png"
-                    alt="instance"
-                    width={24}
-                    height={24.101776123046875}
-                    className="c_frame21-instance"
-                    />
-                  <div className="c_frame21-text18">
-                    <p className="c_frame21-text19">Continue with Google</p>
-                  </div>
-                </div>
-                <div className="c_frame21-frame12">
-                  <img
-                    src="./facebook.png"
-                    alt="instance"
-                    width={24}
-                    height={24}
-                    className="c_frame21-instance1"
-                    />
-                  <div className="c_frame21-text20">
-                    <p className="c_frame21-text21">Continue with Facebook</p>
-                  </div>
-                </div>
-                <div className="c_frame21-text22">
-                  <p className="c_frame21-text23">
-                    <span className="c_frame21-text24">Doesn’t have an account?</span>
-                      <span className="c_frame21-text25">Register Now</span>
-                      </p>
+      <div class="login-container">
+        <div class="login-wrapper">
+          <div class="login-content">
+            <div class="login-columns">
+              <div class="login-column">
+                <div class="login-form-container">
+                  <div class="login-form-wrapper">
+                    <form class="login-form">
+                      <div class="login-heading">
+                        <h1 class="login-title">Login</h1>
+                        <p class="login-subtitle">Login to your Swap Account !</p>
                       </div>
-                      </div>
-                      </div>
-                      <img
-                        src="./eco.png"
-                        alt="frame"
-                        width={712}
-                        height={1080}
-                        className="c_frame21-frame13"
+                      <div class="login-email-container">
+                        <label htmlFor="email" class="login-email-label">
+                          Email/Username
+                        </label>
+                        <input
+                          type="text"
+                          id="email"
+                          name="email"
+                          class="login-email-input"
+                          placeholder="Your Email Address/Username"
+                          aria-label="Your Email Address/Username"
                         />
                       </div>
-                      )
-                      }
+                      <div class="login-password-container">
+                        <label htmlFor="password" class="login-password-label">
+                          Password
+                        </label>
+                        <input
+                          type="password"
+                          id="password"
+                          name="password"
+                          class="login-password-input"
+                          placeholder="Your Password"
+                          aria-label="Your Password"
+                        />
+                        <span class="login-password-hint">-</span>
+                      </div>
+                      <button type="submit" class="login-button">
+                        Login
+                      </button>
+                      <a href="#" class="forgot-password-link">
+                        Forgot your password?{" "}
+                        <span style={{ fontWeight: 700 }}>Get Help</span>
+                      </a>
+                      <div class="login-divider"></div>
+                      <button type="button" class="google-login-button">
+                        <div class="google-login-content">
+                          <img src="google.png" alt="Google icon" class="google-icon" />
+                          <span class="google-login-text">Continue with Google</span>
+                        </div>
+                      </button>
+                      <button type="button" class="facebook-login-button">
+                        <div class="facebook-login-content">
+                          <img
+                            src="facebook.png"
+                            alt="Facebook icon"
+                            class="facebook-icon"
+                          />
+                          <span class="facebook-login-text">
+                            Continue with Facebook
+                          </span>
+                        </div>
+                      </button>
+                      <a href="#" class="register-link">
+                        Doesn't have an account?{" "}
+                        <span style={{ fontWeight: 700 }}>Register Now</span>
+                      </a>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="image-column">
+                <div class="image-container">
+                  <img
+                    src="Logo EcoSwap.png"
+                    alt="Login illustration"
+                    class="login-image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+)
+}
 
 export default login;
