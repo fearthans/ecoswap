@@ -144,6 +144,10 @@
     background-color: #163020;
   }
 
+  .white-text {
+    color: white;
+  }
+  
   img.quote {
     color: #304d30;
     font-size: 60px;

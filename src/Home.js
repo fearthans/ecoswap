@@ -4,8 +4,12 @@ import './App.css';
 import { Button } from 'react-bootstrap';
 import Header from './Header';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 function Home() {
+  const handleLoginButtonClick = () => {
+    window.location.href = '/login';
+  };
   return (
     <div classname="App">
       <div className="body">
@@ -53,9 +57,9 @@ function Home() {
                 <p className="item-text">Contact Us</p>
               </div>
               <div className="dot"/>
-                <Button variant='success' href='#' className="item login active">
-                  Login
-                </Button>
+              <Link to="/login" className="item login active">
+            <Button variant=""><span className="white-text">Login</span></Button>
+          </Link>
             </div>
           </div>
           
