@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import styles from "./menu.css"; 
+import { Link } from 'react-router-dom';
 const login = (props) => {
   return (
       <div class="login-container">
@@ -68,10 +69,9 @@ const login = (props) => {
                           </span>
                         </div>
                       </button>
-                      <a href="#" class="register-link">
-                        Doesn't have an account?{" "}
-                        <span style={{ fontWeight: 700 }}>Register Now</span>
-                      </a>
+                      <Link to="/register" className="register-link">
+              Doesn't have an account? <span style={{ fontWeight: 700 }}>Register Now</span>
+            </Link>
                     </form>
                   </div>
                 </div>
